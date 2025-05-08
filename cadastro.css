@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'deep';
+    src: url(./Wallman-Bold-free.ttf);
+}
+
+body{
+    background-color: #ffede7;
+    font-family: 'deep';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+}
+
+.cadastro{
+    width: 250px;
+    height: 350px;
+    background-color: #f13c78;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cadastro h2{
+    margin-top: 30px;
+}
+
+input{
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    margin: 0 0 20px 0;
+}
