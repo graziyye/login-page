@@ -14,15 +14,18 @@ body{
 }
 
 .cadastro{
-    width: 250px;
-    height: 350px;
-    background-color: #f13c78;
-    text-transform: uppercase;
     text-align: center;
+    color: #ffede7;
+    background: #f13c78;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #f13c78e5;
 }
 
 .cadastro h2{
+    font-size: 4.5vh;
     margin-top: 30px;
+    color: #ffede7;
 }
 
 input{
@@ -33,4 +36,25 @@ input{
 }
 button{
     margin: 0 0 20px 0;
+}
+
+button{
+    width: 25vh;
+    height: 26px;
+    border: solid #ffede7 1.9px;
+    background: transparent;
+    border-radius: 8px;
+    color: #ffede7;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 10px;
+
+}
+
+button:hover{
+    background: #ffede7;
+    color: #f13c78;
+    transition: .4s ease-in-out;
+    cursor: pointer;
 }
